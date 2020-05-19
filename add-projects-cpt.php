@@ -21,7 +21,7 @@
 
 require 'plugin-update-checker/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/alexcu21/portfolio-theme/',
+	'https://github.com/alexcu21/add-projects-cpt/',
 	__FILE__,
 	'portfolio-theme'
 );
