@@ -3,7 +3,7 @@
  * Plugin Name:       Add Projects CPT
  * Plugin URI:        https://github.com/alexcu21/add-projects-cpt
  * Description:       Handle the basics with this plugin.
- * Version:           1.1
+ * Version:           1.2
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Alex Cuadra
