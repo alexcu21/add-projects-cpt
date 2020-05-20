@@ -3,7 +3,7 @@
  * Plugin Name:       Add Projects CPT
  * Plugin URI:        https://github.com/alexcu21/add-projects-cpt
  * Description:       Handle the basics with this plugin.
- * Version:           1.2
+ * Version:           1.3
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Alex Cuadra
@@ -32,7 +32,7 @@ $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 function ap_posttype_projects() {
     $labels = array(
-        'name'                  => _x( 'Featured Projects', 'ap' ),
+        'name'                  => _x( 'My Projects', 'ap' ),
         'singular_name'         => _x( 'Project',  'ap' ),
         'menu_name'             => _x( 'Featured Projects', 'Admin Menu text', 'ap' ),
         'name_admin_bar'        => _x( 'Project', 'Add New on Toolbar', 'ap' ),
@@ -89,7 +89,7 @@ add_action( 'init', 'ap_posttype_projects' );
 
 function ap_posttype_events() {
      $labels = array(
-         'name'                  => _x( 'Featured events', 'ap' ),
+         'name'                  => _x( 'My events', 'ap' ),
          'singular_name'         => _x( 'event',  'ap' ),
          'menu_name'             => _x( 'Featured events', 'Admin Menu text', 'ap' ),
          'name_admin_bar'        => _x( 'event', 'Add New on Toolbar', 'ap' ),
