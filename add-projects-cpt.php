@@ -34,7 +34,7 @@ function ap_posttype_projects() {
     $labels = array(
         'name'                  => _x( 'My Projects', 'ap' ),
         'singular_name'         => _x( 'Project',  'ap' ),
-        'menu_name'             => _x( 'Featured Projects', 'Admin Menu text', 'ap' ),
+        'menu_name'             => _x( 'My Projects', 'Admin Menu text', 'ap' ),
         'name_admin_bar'        => _x( 'Project', 'Add New on Toolbar', 'ap' ),
         'add_new'               => __( 'Add New', 'ap' ),
         'add_new_item'          => __( 'Add New Project', 'ap' ),
@@ -91,7 +91,7 @@ function ap_posttype_events() {
      $labels = array(
          'name'                  => _x( 'My events', 'ap' ),
          'singular_name'         => _x( 'event',  'ap' ),
-         'menu_name'             => _x( 'Featured events', 'Admin Menu text', 'ap' ),
+         'menu_name'             => _x( 'My events', 'Admin Menu text', 'ap' ),
          'name_admin_bar'        => _x( 'event', 'Add New on Toolbar', 'ap' ),
          'add_new'               => __( 'Add New', 'ap' ),
          'add_new_item'          => __( 'Add New event', 'ap' ),
